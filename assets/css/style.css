@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  background-image: url("../images/background1.jpg");
+  background-repeat:repeat-y repeat-x;
+}
+
+header {
+  background-color:#ffffff;
+  margin:23px;
+  border-bottom: 5px solid #cccccc;
+	margin: 0 auto;
+  overflow: hidden;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+max-width: 960px;
+margin: 0px auto;
+}
+
+
+
+li.nav {
+  float: left;
+  font-size: 32px;
+  text-align: center;
+  padding: 25px;
+  background-color: #4aaaa5;
+  color:#ffffff;
+}
+
+nav a {
+  display: block;
+  text-align: center;
+  padding: 25px; 
+  color: #777777;
+  float: right;
+  
+}
+
+#box {
+  background-color: #ffffff;
+	padding: 50px;
+  border: 1px solid #dddddd;
+  min-height: 600px;
+}
+
+#contactBox {
+  margin: 20px;
+  
+}
+
+#about {
+  min-height: 600px;
+  padding: 10% ;
+
+  padding: 50px;
+  
+	padding: 30px;
+	border: 1px solid #dddddd;
+
+}
+
+img#headshot {
+  padding-right: 3%;
+  padding-top: 3%;
+  float: left;
+}
+
+.ortfolio {
+  position: relative;
+  float: right;
+  width: 274px;
+  margin: auto;
+  overflow: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+background-color: #4aaaa5;
+color: #ffffff;
+padding: 12px 20px;
+border: none;
+}
+
+h1 {
+  font-size: 32px;
+  color: #4aaaa5;
+  border-bottom: 2px solid #cccccc;
+}
+
+p {
+  text-align: center;
+  padding: 3%;
+
+}
+
+footer {
+  display:block;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #666666;
+  padding: 40px;
+  margin-top: 100px;
+  border-top: 9px solid #4aaaa5;
+}
+
